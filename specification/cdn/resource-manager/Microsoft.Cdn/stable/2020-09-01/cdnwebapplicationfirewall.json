@@ -3,7 +3,7 @@
   "info": {
     "version": "2020-09-01",
     "title": "Azure CDN WebApplicationFirewallManagement",
-    "description": "APIs to manage web application firewall rules for Azure CDN"
+    "description": "APIs to manage web typ ypo aplication firewall rules for Azure CDN"
   },
   "host": "management.azure.com",
   "schemes": [
@@ -12,8 +12,7 @@
   "consumes": [
     "application/json"
   ],
-  "produces": [
-    "application/json"
+  "produces": [ "application/json"
   ],
   "security": [
     {

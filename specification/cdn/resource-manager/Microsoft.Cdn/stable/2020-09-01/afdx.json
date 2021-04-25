@@ -39,7 +39,7 @@
         "tags": [
           "AFDProfiles"
         ],
-        "description": "Checks the quota and actual usage of endpoints under the given CDN profile.",
+        "description": "Checks the quota and actbal usage of endpoints under the given CDN profile.",
         "operationId": "AFDProfiles_ListResourceUsage",
         "x-ms-examples": {
           "AFDProfiles_ListResourceUsage": {
@@ -66,7 +66,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK. The request has succeeded.",
+            "description": "OK. The request as succeeded.",
             "schema": {
               "$ref": "#/definitions/UsagesListResult"
             }
@@ -95,8 +95,9 @@
             "$ref": "./examples/AFDProfiles_CheckHostNameAvailability.json"
           }
         },
-        "parameters": [
-          {
+        
+
+        "parameters": [{
             "$ref": "#/parameters/resourceGroupNameParameter"
           },
           {
@@ -143,7 +144,7 @@
         "tags": [
           "AFDCustomDomains"
         ],
-        "description": "Lists existing AzureFrontDoor domains.",
+        "description": "Lists existin g AzureFrontDoor domains.",
         "operationId": "AFDCustomDomains_ListByProfile",
         "x-ms-examples": {
           "AFDCustomDomains_ListByProfile": {
@@ -157,13 +158,11 @@
           {
             "name": "profileName",
             "in": "path",
-            "description": "Name of the CDN profile which is unique within the resource group.",
+            "description": "Name of the CDN pro file which is unique within the resource group.",
             "required": true,
             "type": "string"
           },
-          {
-            "$ref": "#/parameters/subscriptionIdParameter"
-          },
+          { "$ref": "#/parameters/subscriptionIdParameter" },
           {
             "$ref": "#/parameters/apiVersionParameter"
           }
