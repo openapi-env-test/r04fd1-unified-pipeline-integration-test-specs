@@ -38,7 +38,6 @@ These settings apply only when `--tag=package-2020-09` is specified on the comma
 ``` yaml $(tag) == 'package-2020-09'
 input-file:
 - Microsoft.Cdn/stable/2020-09-01/cdn.json
-- Microsoft.Cdn/stable/2020-09-01/afdx.json
 - Microsoft.Cdn/stable/2020-09-01/cdnwebapplicationfirewall.json
 ```
 
@@ -49,7 +48,6 @@ These settings apply only when `--tag=package-2020-04` is specified on the comma
 ``` yaml $(tag) == 'package-2020-04'
 input-file:
 - Microsoft.Cdn/stable/2020-04-15/cdn.json
-- Microsoft.Cdn/stable/2020-04-15/cdnwebapplicationfirewall.json
 ```
 
 ---
